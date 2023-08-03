@@ -33,18 +33,13 @@ msgstr "Contatto/Opportunità"
 
 #. module: crm_industry
 #: model:ir.model.fields,field_description:crm_industry.field_crm_lead__industry_id
-msgid "Main Industry"
+msgid "Industry"
 msgstr "Settore principale"
-
-#. module: crm_industry
-#: model:ir.model.fields,field_description:crm_industry.field_crm_lead__secondary_industry_ids
-msgid "Secondary Industries"
-msgstr "Settori secondari"
 
 #. module: crm_industry
 #: code:addons/crm_industry/models/crm_lead.py:0
 #, python-format
-msgid "The secondary industries must be different from the main industry."
+msgid "The secondary industries must be different from the industry."
 msgstr "I settori secondari devono essere diversi da quello principale."
 
 #~ msgid "Main Sector"

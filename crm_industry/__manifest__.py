@@ -4,12 +4,12 @@
 {
     "name": "CRM Industry",
     "summary": "Link leads/opportunities to industries",
-    "version": "16.0.1.0.0",
+    "version": "1.0.0",
     "category": "Customer Relationship Management",
     "website": "https://github.com/OCA/crm",
     "author": "Tecnativa, Odoo Community Association (OCA)",
     "license": "AGPL-3",
     "installable": True,
-    "depends": ["crm", "partner_industry_secondary"],
+    "depends": ["crm"],
     "data": ["views/crm_lead_view.xml"],
 }

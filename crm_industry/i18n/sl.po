@@ -33,19 +33,13 @@ msgstr "Indic/priložnost"
 
 #. module: crm_industry
 #: model:ir.model.fields,field_description:crm_industry.field_crm_lead__industry_id
-msgid "Main Industry"
+msgid "Industry"
 msgstr ""
-
-#. module: crm_industry
-#: model:ir.model.fields,field_description:crm_industry.field_crm_lead__secondary_industry_ids
-#, fuzzy
-msgid "Secondary Industries"
-msgstr "Sekundarni sektorji"
 
 #. module: crm_industry
 #: code:addons/crm_industry/models/crm_lead.py:0
 #, fuzzy, python-format
-msgid "The secondary industries must be different from the main industry."
+msgid "The secondary industries must be different from the industry."
 msgstr "Sekundarni sektorji morajo biti različni od glavnega."
 
 #~ msgid "Main Sector"

@@ -15,8 +15,8 @@
                         name="industry_id"
                         placeholder="Industry"
                         options='{"no_open": True}'
+                        widget='many2one'
                     />
-                    <field name="secondary_industry_ids" widget="many2many_tags" />
                 </group>
             </group>
         </field>
@@ -40,12 +40,12 @@
                 <field name="industry_id" />
             </field>
             <filter name="assigned_to_me" position="after">
-                <filter
-                    name="industry"
-                    string="Industry"
-                    domain="[]"
-                    context="{'group_by': 'industry_id'}"
-                />
+                    <filter
+                        name="industry"
+                        string="Industry"
+                        domain="[]"
+                        context="{'group_by': 'industry_id'}"
+                    />
             </filter>
         </field>
     </record>
